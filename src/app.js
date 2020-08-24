@@ -35,6 +35,7 @@ const Person = mongoose.model("Person", personSchema)
 
 
 app.get('/', (req, res) => {
+  console.log("Request Received")
   res.send('Testing')
 })
 
